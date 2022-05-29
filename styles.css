@@ -1,0 +1,1082 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image-header {
+    background-image: url("hero.png");
+    height: 300px;
+    background-size: cover;
+    background-position: top;  
+}
+
+.menu-header {
+    background-color: #0284c7;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+@media (max-width: 780px) {
+  .image-header {
+     background-blend-mode: multiply;
+     background-position: center;
+     opacity: 150;
+     height: 150px;
+    }
+     .header {
+         background-color: #ffffffb7;
+         height: 150px;
+        }
+          .Dento {
+             display: flex;
+             justify-content: flex-start;
+             margin-left: 20px;
+             white-space: nowrap; 
+             font-size: 12px;
+            }
+              .menu-header {
+                 display: flex;
+                 justify-content: center;
+                }
+}
+ 
+.Dento {
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    font-weight: 600;
+    white-space: nowrap; 
+}
+@media (min-width: 1024px) {
+    .Dento {
+        margin-left: 192px;
+        font-size: 15px;
+    }
+}
+
+.menu-section {
+    color: white;
+    font-weight: 300;
+    padding-top: 10px;
+    font-weight: 400;
+    text-decoration:none;
+}
+@media (min-width: 1024px) {
+ .menu-section {
+     padding-left: 40px;
+     font-size: 15px;
+    }
+}
+
+@media (max-width: 780px) {
+ .menu-section {
+     font-size: 11px;
+     white-space: nowrap; 
+     padding-left: 10px;
+     margin-right: 10px;
+    }
+}
+
+.header {
+    width: 100%; 
+    max-width: 1024px;
+}
+
+.header-2{
+    width: 100%; 
+    max-width: 1024px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} 
+
+.header-dento {
+    font-size: 35px;
+    font-weight: 700;
+    color: #262626;
+}
+@media (min-width: 1024px) {
+ .header-dento {
+     padding-left: 190px;
+     padding-top: 50px;
+    }
+}
+@media (max-width: 780px) {
+ .header-dento {
+     font-size: 17px;
+     padding-top: 35px;
+     padding-left: 20px;
+    }
+     .header-dento-plus {
+         font-size: 17px;
+         padding-top: 52px;
+         padding-left: 100px;
+        }
+}
+
+.header-dento-plus {
+    color: #0284c7;
+    font-weight: 700;
+    margin-left: -192px;
+}
+@media (min-width: 1024px) {
+ .header-dento-plus {
+     font-size: 35px;
+     padding-top: 85px;
+    }
+}
+
+.description {
+ color: #0369a1;
+ font-size: 10px;
+   
+}
+@media (max-width: 780px) {
+.description {
+     padding-left: 20px;
+     font-size: 8px;
+     margin-top: -70px;
+     white-space: wrap; 
+    }
+}
+@media (min-width: 1024px) {
+ .description {
+     margin-left: 190px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+    }
+}
+
+.button {
+    background: #0ea5e9;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px; /* Уголки */
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 5px  #404040;
+}
+@media (max-width: 780px) {
+ .button {
+     padding: 5px 10px 5px 10px; 
+     font-size: 8px;
+     margin-left: 20px;
+     margin-top: 10px;
+    }
+}
+@media (min-width: 1024px) {
+ .button {
+     font-size: 14px;
+     padding: 8px 30px 8px 30px; 
+     margin-left: 190px;
+     margin-top: 10px;
+    }
+}
+
+.services {
+    margin: auto;
+    width: 100%; 
+    max-width: 1024px;
+}
+
+.Our-services {
+    color:#0369a1;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+@media (max-width: 780px) {
+ .Our-services {
+     font-size: 20px;
+     padding-left: 60px; 
+    }
+}
+
+.fon_menu_services {
+    background: #0284c7;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+@media (max-width: 780px) {
+ .fon_menu_services {
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 30px; 
+    }
+}
+
+
+.menu {
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   max-width: 1024px;
+   width: 100%;
+}
+@media (max-width: 780px) {
+ .menu {
+     display: flex;
+     justify-content: flex-end;
+    }
+}
+
+.img-menu_services {
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+    height: 130px;
+    width: 200px;
+    box-shadow: 0px 0px 5px 5px #0369a1;
+}
+ 
+.img-menu_services-1 {
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 130px;
+    width: 200px;
+    box-shadow: 0px 0px 5px 5px #0369a1;
+}
+
+.dental-nomer {
+    color: white;
+    margin-top: -120px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.dental-treatment {
+    color: white;
+    padding-top: 60px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+.clinick {
+   background-image: url("background-1.png");
+   height: 450px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.header-clinick {
+    color:#0369a1;
+    font-weight: 600;
+    font-weight: 700;
+    text-align: center;
+}
+@media (min-width: 1024px) {
+ .header-clinick {
+     padding-top: 50px;
+     font-size: 25px;
+    }
+     .text {
+         font-size: 17px;
+          margin-top: 30px;
+          margin-left: 250px;
+        }
+         .button-details {
+              margin-left: 940px;
+              margin-top: 50px;
+              font-size: 14px;
+              padding: 8px 30px 8px 30px; /* Поля вокруг текста */
+            }
+}
+
+@media (max-width: 780px) {
+ .header-clinick {
+     padding-top: 30px;
+     font-size: 22px;
+    }
+      .text {
+          font-size: 12px;
+          padding-top: 15px;
+          padding-left: 10px;
+        }
+           .button-details {
+              margin-top: 25px;
+              margin-left: 10px;
+              font-size: 12px;
+              padding: 5px 30px 5px 30px; 
+            }
+}
+
+.text {
+    width: 100%;
+    max-width: 1024px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #262626;
+} 
+
+.button-details {
+    background: #0ea5e9;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px; /* Уголки */
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 5px  #404040;
+}
+
+.feedback-column {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    justify-content: space-between;
+}
+@media (max-width: 780px) {
+  .feedback-column {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+}
+
+#border { 
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    color: #e5e5e5;
+    box-shadow: 0 0 5px 0 #d4d4d4;
+}
+@media (min-width: 1024px){
+   #border {
+     padding-bottom: 20px;
+     padding-right: 10px;
+     padding-top: 20px;
+     margin-left: 90px;
+     margin-right: 50px;
+     margin-top: 30px;
+   }
+}
+
+@media (max-width: 780px) {
+ #border {
+     margin-left: 50px;
+     margin-top: 25px;
+     margin-right: 70px;
+     padding-bottom: 35px;
+     padding-right: 15px;
+     text-align: left;
+    }
+      .foto {
+          padding-top: 10px;
+        }
+}
+
+.client {
+    color: #0284c7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 110px;
+    margin-top: -80px; 
+}
+
+.client-3 {
+    color: #0284c7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 110px;
+}
+
+.foto-2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.text-reviews {
+    color: #737373;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.border-2 { 
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    color: #e5e5e5;
+    box-shadow: 0 0 5px 0 #d4d4d4;
+}
+@media (min-width: 1024px) {
+ .border-2 {
+     padding-bottom: 20px;
+     padding-right: 30px;
+     padding-left: 25px;
+     padding-top: 20px;
+     margin-left: 0px;
+     margin-right: 90px;
+     margin-top: 30px;
+    }
+}
+@media (max-width: 780px) {
+ .border-2 {
+     margin-left: 50px;
+     margin-top: 25px;
+     margin-right: 70px;
+     padding-bottom: 35px;
+     text-align: left;
+     padding-right: 10px;
+    }
+      .foto-2 {
+          padding-left: 10px;
+          padding-top: 0px;
+        }
+}
+
+.foto {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+.foto-3 {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px; 
+}
+
+.border-3 { 
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-bottom: -20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    color: #e5e5e5;
+    box-shadow: 0 0 5px 0 #d4d4d4;
+}
+@media (min-width: 1024px) {
+ .border-3 {
+     margin-left: 90px;
+     margin-right: 0px;
+    }
+      .text-reviews-3 {
+          white-space: nowrap;
+       }
+        .text-reviews-3 {
+             margin-top: 10px;
+           }
+              .client-3 {
+                  margin-top: -80px;
+               }
+}
+
+@media (max-width: 780px) {
+ .border-3 {
+     margin-left: 50px;
+     margin-right: 70px;
+     padding-bottom: 40px;
+        
+    }
+      .foto-3 {
+          margin-top: -16px;
+        }
+          .client-3 {
+             margin-top: -100px;
+           }
+}
+
+.text-reviews-3 {
+    color: #737373;
+    font-size: 10px;
+    font-weight: 300; 
+    margin-left: 60px; 
+}
+
+.border-4 { 
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+    color: #e5e5e5;
+    box-shadow: 0 0 5px 0 #d4d4d4;
+}
+@media (min-width: 1024px) {
+ .border-4 {
+     margin-left: 50px;
+     margin-right: 90px
+    }
+}
+@media (max-width: 780px) {
+ .border-4 {
+     margin-left: 50px;
+     margin-right: 70px;   
+    }
+}
+ 
+#section-background {
+ background-image: url("map-background.png");
+ height: 330px;
+ margin-top: 50px;
+ background-color: #f0f9ff;
+ position: relative;
+ background-blend-mode: multiply;
+}
+
+
+.pozition {
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+}
+@media (max-width: 780px) {
+ .pozition {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+      #section-background {
+         height: 670px;
+       }
+         .border-branches {
+             margin-top: 15px;
+           }
+}
+
+.border-branches {
+ border: solid ;
+ border-color:#0ea5e9 ;
+ border-width: 1px;
+ border-radius: 10px;
+ padding-bottom: 15px;
+ padding-right: 15px;
+ margin-left: 20px;
+ background-color: white;
+ box-shadow:  0 0 5px 0 #e5e5e5;
+}
+@media (min-width: 1024px) {
+  .border-branches {
+     margin-top: 30px;
+    }
+}
+
+.location {
+    color: #0284c7;
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: -22px;
+    line-height: 1.2;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+
+.icon-icons {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+.working-mode {
+    color: #0369a1;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.time {
+    color: #0284c7;
+    font-size: 13px;
+    margin-left: 35px;
+    line-height: 1.2;
+}
+
+.contact {
+    color: #0369a1;
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: 45px;
+    font-weight: 600;
+}
+.arrow {
+margin-right: -10px ;   
+}
+.arrow2 {
+    margin-left: 20px;
+}
+.arrow1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.arrow-3 {
+    margin-left: 165px;
+    margin-top: -20px;
+}
+@media (max-width: 780px) {
+ .arrow {
+       position: relative;
+       right: 135px;
+       top: 300px
+    }
+     .arrow2 {
+         position: relative;
+         left: 150px;
+         top: -280px
+        }
+}
+     
+
+
+.caries-treatment {
+  max-width: 1024px;
+  width: 100%;
+}
+
+.header-caries-treatment {
+  color: #0369a1;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center; 
+}
+@media (min-width: 1024px) {
+  .header-caries-treatment {
+     font-size:25px ;
+    }
+      .text-caries-treatment {
+         font-size: 15px;
+         padding-left: 200px;
+         padding-right: 200px;
+        }
+}
+@media (max-width: 780px) {
+  .header-caries-treatment {
+     font-size: 20px;
+    }
+}
+
+.text-caries-treatment {
+ font-size: 15px;
+ text-align: justify;
+ line-height: 1.8;
+ color:#0369a1 ;
+ font-weight: 400;
+}
+.patient {
+ float: right;
+ height: 415px;
+ width: 300px;
+ margin-top: 5px;
+ border-radius: 10px;
+ margin-left: 20px;
+}
+@media (max-width: 780px) {
+  .patient {
+     height: 250px;
+     width: 180px;
+    }
+     .text-caries-treatment {
+         padding-left: 20px;
+        }
+}
+
+.prices {
+ margin: auto;
+ max-width: 1024;
+ width: 100%; 
+}
+ .prices-header1 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color:#0284c7 ;
+  font-size: 20px;
+}
+
+.deep-caries {
+ font-weight: 600;
+ color: #0369a1;
+ padding-top: 20px;
+ padding-bottom: 15px;
+ padding-left: 30px;
+ position: relative;  
+}
+@media (max-width: 780px) {
+ .deep-caries {
+     white-space: wrap; 
+    }
+}
+.price {
+ font-weight: 700;
+  color: #7dd3fc;
+}
+
+.price-2 {
+ font-weight: 700;
+ color: #1ea84c;
+}
+
+.services-2 {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+.background-deep-caries{
+ background-color: #f0f9ff;
+ border-radius: 20px;
+ margin-top: 20px; 
+}
+@media (min-width: 1024px) {
+ .background-deep-caries {
+     margin-left: 220px;
+     margin-right: 340px;
+    }
+     .background-deep-caries-2 {
+         margin-left: 220px;
+         margin-right: 340px;
+        }
+}
+
+.background-deep-caries-2 {
+  background-color: #e0f2fe;
+  border-radius: 20px;
+  margin-top: 20px; 
+}
+
+.other-services {
+ margin: auto;
+  max-width: 1024;
+ width: 100%;
+}
+
+.header-other-services {
+ display: flex;
+ justify-content: center;
+}
+
+#header-services {
+    color:#0369a1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 65px;
+    font-weight: 700;
+}
+
+.fon-background-contacts {
+ background: #f0f9ff;
+ padding-bottom: 40px;
+}
+@media (max-width: 780px)  {
+ .fon-background-contacts {
+     margin-top: 20px;
+    }
+}
+
+.fon-background-contacts-2 {
+    background: #f0f9ff;
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.contacts {
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+}
+     
+.clinik-dento-plus {
+    padding-top: 30px;
+    color: #0284c7;
+    line-height: 1.5;
+    font-size: 12px;
+}
+@media (min-width: 1024px) {
+ .information-clinick {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+    }
+     .clinik-dento-plus {
+         padding-left: 80px;
+        }
+          .social {
+             padding-right: 95px;
+             margin-top: -30px;
+            }
+              .facebook {
+                 right: 90px;
+                }
+                  .social-infa {
+                      display: flex;
+                      flex-direction: row;
+                     justify-content: flex-end;
+                    }
+}
+
+@media (max-width: 780px) {
+ .information-clinick {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+      .clinik-dento-plus {
+         margin-left: 10px;
+        }
+          .social {
+             padding-right: 30px;
+             padding-top: 10px;
+             padding-left: 110px;
+            }
+              .facebook {
+                  padding-top: 16px;
+                  left: 205px;
+                }
+                   .social-infa {
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                    }
+}
+
+.social {
+ color: #0284c7;
+ font-size: 12px;
+} 
+
+.facebook {
+ height: 20px;
+ width: 20px;
+ margin-top: -32px;
+ position: relative;
+}
+
+.locations {
+ height: 15px;
+ width: 13px;
+ padding-top: 40px;
+}
+   
+.contact-address {
+ color: #0284c7;
+ font-size: 13px;
+ font-weight: 600;
+ padding-left: 15px;
+ line-height: 1.2;
+ margin-top: -17px;
+}
+
+.infocmation-contact {
+ color: #0284c7;
+ font-size: 12px;
+ line-height: 1.5;
+}
+
+.inform-address {
+ display: flex;
+ justify-content:space-around;
+ flex-direction: row;
+      }
+@media (max-width: 780px) {
+  .inform-address {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+     .license {
+         display: flex;
+         justify-content:center;
+         flex-direction: row;
+        }
+}
+
+.licence1 {
+ color:#0284c7 ;
+ font-size: 12px;
+ margin-top: 50px;
+}
+@media (min-width: 1024px) {
+ .license {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+      .licence1 {
+         padding-right: 90px;
+        }
+}
+    
+
+
+
+
+.clinic-specialists {
+ max-width: 1024px;
+ width: 100%;
+ margin: auto;
+}
+
+.specialists {
+ display: flex;
+ justify-content: center;
+ font-weight: 700;
+ color:#0284c7 ;
+}
+@media (min-width: 1024px) {
+ .specialists {
+     font-size: 30px;
+     padding-top: 90px;
+    }
+     .description-doctors {
+         font-size: 13px;
+        }
+    }
+@media (max-width: 780px) {
+ .specialists {
+     font-size: 15px;
+     padding-top: 50px;
+    }
+     .description-doctors {
+         font-size: 10px;
+        }
+}
+
+.description-doctors {
+    font-weight: 700;
+    padding-top: 30px;
+    color: #a3a3a3;
+    text-align: center;
+}
+.forma {
+    display: flex;
+    justify-content: center;
+}
+
+.form_input {
+  margin-top: 50px;
+  width: 520px;
+  height: 35px;
+  padding-left: 30px;
+  border-radius: 10px;
+  background-color: #e0f2fe;
+  border: 1px solid #bae6fd;
+}
+.form_input:focus {
+ outline: none;
+}
+
+.doctors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width:780px) {
+ .form_input {
+     width: 350px;
+     margin-bottom: 10px;
+    }
+     .doctors {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        }
+         .dentist-doctor {
+             margin-top: 30px; 
+             margin-bottom: 20px;
+            }
+             .more {
+                 margin-bottom: 10px;
+                }
+}
+
+
+   .dentist-doctor {
+       width: 230px;
+       height: 170px;
+       border-radius: 10px;
+       margin-right: 10px;
+       box-shadow: 0px 0px 2px 1px #e5e5e5;
+   }
+   @media (min-width: 1024px) {
+       .dentist-doctor {
+        margin-top: 80px;
+       }
+       .more {
+        margin-bottom: 50px;
+       }
+   }
+
+.FULL-NAME {
+ font-size: 12px;
+ text-align: center;
+ color: #525252;
+ padding-top: 5px;
+}
+
+.dental-hygienist {   
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #525252;
+    padding-top: 5px;
+}
+   
+.more {
+    border: 1px solid #0284c7;
+    margin-top: 10px;
+    color: #0ea5e9;
+    background-color: white;
+    padding: 10px 32px 10px 32px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.glass {
+ width: 18px;
+ height: 18px;
+ padding-top: 60px;
+ position: relative;    
+ left: 30px;
+}
+
+
+
+
+
+
+
+    
+
+
+
