@@ -33,17 +33,17 @@ html {
              justify-content: flex-start;
              margin-left: 20px;
              white-space: nowrap; 
-             font-size: 12px;
+             font-size: 20px;
+             padding-top: 6px;
             }
               .menu-header {
                  display: flex;
-                 justify-content: center;
+                 justify-content: space-between;
                 }
 }
  
 .Dento {
     color: white;
-    padding-top: 10px;
     display: flex;
     font-weight: 600;
     white-space: nowrap; 
@@ -52,6 +52,7 @@ html {
     .Dento {
         margin-left: 192px;
         font-size: 15px;
+        padding-top: 10px;
     }
 }
 
@@ -74,7 +75,17 @@ html {
      font-size: 11px;
      white-space: nowrap; 
      padding-left: 10px;
-     margin-right: 10px;
+     padding-right: 10px;
+     font-weight: 700;
+     color: #075985;
+     
+    }
+    .flex-menu-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        display: none;
     }
 }
 
@@ -177,6 +188,9 @@ html {
      margin-left: 190px;
      margin-top: 10px;
     }
+    .openmenu {
+        display: none;
+    }
 }
 
 .services {
@@ -229,9 +243,23 @@ html {
 }
 @media (max-width: 780px) {
  .menu {
-     display: flex;
-     justify-content: flex-end;
+     display: none;
+     
     }
+    .buttonmenu {
+    background: #0ea5e9;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px; /* Уголки */
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 5px  #404040;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    }
+    
 }
 
 .img-menu_services {
