@@ -89,7 +89,13 @@ html {
     .container {
         display: none;
     }
-    .imgopen {
+    .imgOpen-2 {
+        color: white;
+     width: 17px;
+     height: 17px;
+    display: none ;
+    }
+    .imgOpen {
         color: white;
      width: 17px;
      height: 17px;
@@ -238,9 +244,7 @@ html {
      align-items: center;
      padding-bottom: 30px; 
     }
-    .imopen-2 {
-        display: none;
-    }
+    
 }
 
 
