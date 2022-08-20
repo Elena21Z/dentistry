@@ -4,13 +4,15 @@ function openMenu() {
     const img = document.getElementById("imgOpen")
     if (isOpen) {
         container.style.display = "none"
+      
+        img.src = "menu_multimedia_bars_media_icon.png"
         isOpen = false
-        img.src = "/icons8-list-91.png"
-        isOpen = false
+        
     } else {
-        container.style.display = "flex"  
+        container.style.display = "flex" 
+        img.src = "cancel_close_delete_icon.png"
         isOpen = true
-        img.src="/icons8-menu-48.png"
-        isOpen = true
+
+        
     }
 }
